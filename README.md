@@ -10,4 +10,4 @@ Frontend - TypeScript, NextJs
 Backend - Solidity, Hardhat
 
 ## Next Steps
-To find ways to further simplify the trading scene... Maybe breaking away from traditional finance and trading IP on-chain.
+To find ways to further simplify the trading scene... Maybe breaking away from traditional finance and trading IP on-chain. Wouldn't things be great if they were so simple. 
