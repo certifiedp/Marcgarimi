@@ -16,11 +16,11 @@ export function TradingLayout() {
     <div className="flex min-h-screen flex-col items-center p-4 md:p-8">
       <header className="w-full max-w-5xl mb-8">
         <div className="flex justify-between items-center">
-          <h1 className="text-2xl font-bold">Minimal Trading Interface</h1>
+          <h1 className="text-2xl font-bold">TradeZ</h1>
           <ConnectButton />
         </div>
         <p className="text-sm text-muted-foreground mt-2">
-          A simple and elegant approach to token exchange
+          Why overcomplicate the wheel?
         </p>
         <Separator className="my-4" />
       </header>
@@ -35,13 +35,15 @@ export function TradingLayout() {
               <p className="text-sm text-muted-foreground">
                 We believe that trading doesn't need to be complicated. Our interface strips away unnecessary 
                 features to focus on what matters: providing a straightforward way to exchange tokens at a 
-                transparent, fixed rate.
+                transparent, fixed rate!
               </p>
               <ul className="list-disc list-inside text-sm text-muted-foreground mt-4 space-y-2">
-                <li>No complex order books or pricing algorithms</li>
-                <li>Clear, predictable exchange rates</li>
-                <li>Minimal interface with only the essential controls</li>
-                <li>Focus on user experience over flashy features</li>
+                <li>No complex order books or pricing algorithms!</li>
+                <li>Clear, predictable exchange rates!</li>
+                <li>Minimal interface with only the essential controls!</li>
+                <li>Focus on user experience over flashy features!</li>
+                <li>You won't be exit liquidity</li>
+                <li>Minimal Arb opportunities!</li>
               </ul>
             </div>
           </div>
