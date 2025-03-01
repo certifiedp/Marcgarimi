@@ -1,6 +1,6 @@
-# TradeZ
+# Marcgarimi
 
-## About TradeZ
+## About Margarimi
 
 TradeZ is a minimal, user-friendly decentralized trading interface that simplifies token exchange. We've stripped away unnecessary complexity to focus on what matters most: providing a straightforward way to exchange tokens at transparent, fixed rates.
 
