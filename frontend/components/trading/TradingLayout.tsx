@@ -1,4 +1,5 @@
-'use client';
+// Remove 'use client' - this will be a server component that contains client components
+// 'use client';
 
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { ConnectButton } from "@/components/wallet/ConnectButton";
@@ -8,6 +9,7 @@ import { AddLiquidity } from "@/components/trading/AddLiquidity";
 import { Separator } from "@/components/ui/separator";
 import { Toaster } from "sonner";
 import { contractAddress } from "@/lib/contractConfig";
+import { ClientTabs } from "./ClientTabs";
 
 export function TradingLayout() {
   return (
@@ -45,18 +47,7 @@ export function TradingLayout() {
           </div>
 
           <div>
-            <Tabs defaultValue="swap" className="w-full">
-              <TabsList className="grid w-full grid-cols-2">
-                <TabsTrigger value="swap">Swap</TabsTrigger>
-                <TabsTrigger value="liquidity">Add Liquidity</TabsTrigger>
-              </TabsList>
-              <TabsContent value="swap" className="mt-4">
-                <SwapInterface />
-              </TabsContent>
-              <TabsContent value="liquidity" className="mt-4">
-                <AddLiquidity />
-              </TabsContent>
-            </Tabs>
+            <ClientTabs />
           </div>
         </div>
       </main>
