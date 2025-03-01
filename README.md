@@ -1,8 +1,6 @@
 # TradeZ
 
-![TradeZ Banner](https://via.placeholder.com/1200x300/4F46E5/FFFFFF?text=TradeZ+-+Simplified+Trading)
-
-## 🚀 About TradeZ
+## About TradeZ
 
 TradeZ is a minimal, user-friendly decentralized trading interface that simplifies token exchange. We've stripped away unnecessary complexity to focus on what matters most: providing a straightforward way to exchange tokens at transparent, fixed rates.
 
@@ -10,7 +8,7 @@ TradeZ is a minimal, user-friendly decentralized trading interface that simplifi
 
 Built for the ETHDenver Hackathon 2024, TradeZ demonstrates how trading doesn't need to be complicated. Our interface provides all the essential functionality without the overwhelming features found in many trading platforms.
 
-## ✨ Features
+## Features
 
 - **Simple Swap Interface**: Exchange tokens with just a few clicks
 - **Fixed Rate Pool**: Transparent pricing with predictable rates
@@ -19,7 +17,7 @@ Built for the ETHDenver Hackathon 2024, TradeZ demonstrates how trading doesn't 
 - **Responsive Design**: Works on desktop and mobile devices
 - **Server-Side Optimization**: Minimal client-side rendering for better performance
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend**: Next.js 15, React, TypeScript
 - **Smart Contracts**: Solidity, Hardhat
@@ -27,7 +25,7 @@ Built for the ETHDenver Hackathon 2024, TradeZ demonstrates how trading doesn't 
 - **Styling**: Tailwind CSS, shadcn/ui
 - **Deployment**: Sepolia Testnet
 
-## 📋 Prerequisites
+## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
 
@@ -37,7 +35,7 @@ Before you begin, ensure you have met the following requirements:
 - MetaMask or another Web3 wallet browser extension
 - Some Sepolia ETH for testing (available from [Sepolia faucets](https://sepolia-faucet.pk910.de/))
 
-## 🔧 Setup Instructions
+## Setup Instructions
 
 ### Clone the Repository
 
@@ -127,7 +125,7 @@ TradeZ/
     └── test/                 # Contract tests
 ```
 
-## 💡 Usage
+## Usage
 
 1. **Connect Wallet**: Click the "Connect Wallet" button in the top-right corner
 2. **Swap Tokens**: 
@@ -139,12 +137,12 @@ TradeZ/
    - Enter the amount for one token (the other will be calculated automatically)
    - Click "Add Liquidity" to provide liquidity to the pool
 
-## 🖼️ Screenshots
+## Screenshots
 
 ![Trading Interface](https://via.placeholder.com/800x450/4F46E5/FFFFFF?text=Trading+Interface)
 ![Liquidity Pool](https://via.placeholder.com/800x450/4F46E5/FFFFFF?text=Liquidity+Pool)
 
-## 🧪 Testing
+## Testing
 
 ### Frontend Tests
 
@@ -160,12 +158,6 @@ cd backend
 npx hardhat test
 ```
 
-## 🌐 Deployed Demo
-
-You can access the live demo at: [https://tradez-demo.vercel.app](https://tradez-demo.vercel.app)
-
-## 🏆 Hackathon Judging
-
 ### Problem Statement
 
 Many DeFi trading interfaces are unnecessarily complex, with overwhelming UIs and complicated features that alienate new users. TradeZ addresses this by providing a minimalist trading experience focused on usability and transparency.
@@ -180,25 +172,3 @@ TradeZ uses a hybrid rendering approach that optimizes for both performance and 
 - Frontend optimizes client/server rendering boundaries for optimal performance
 - RainbowKit integration provides seamless wallet connection
 - Responsive design works across all devices
-
-### User Experience
-
-TradeZ puts simplicity first, with an intuitive interface that anyone can use without a deep understanding of DeFi concepts. The clear, predictable exchange rates and minimal controls make it accessible to both beginners and experienced traders.
-
-## 👥 Team
-
-- Developer: [Your Name](https://github.com/yourusername)
-- Designer: [Designer Name](https://github.com/designerusername)
-- Smart Contract Developer: [SC Dev Name](https://github.com/scdevusername)
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🙏 Acknowledgments
-
-- [ETHDenver](https://www.ethdenver.com/) for hosting the hackathon
-- [RainbowKit](https://www.rainbowkit.com/) for the wallet connection library
-- [shadcn/ui](https://ui.shadcn.com/) for the beautiful UI components
-- [wagmi](https://wagmi.sh/) for the Ethereum React hooks
-- [Hardhat](https://hardhat.org/) for the Ethereum development environment
