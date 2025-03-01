@@ -9,6 +9,26 @@ node_modules/
 .env.development.local
 .env.test.local
 .env.production.local
+*.env
+
+# Secrets and keys
+**/*.pem
+**/*.key
+**/*.p8
+**/*.pfx
+**/*.cert
+**/*.crt
+**/*.keystore
+**/secrets.*
+**/private.*
+**/*-private*.*
+**/*_private*.*
+**/*.secret
+**/*.password
+**/mnemonic.*
+**/keystore.*
+**/wallet.*
+**/keys.*
 
 # Build output
 /frontend/build/
@@ -24,6 +44,10 @@ node_modules/
 /backend/coverage/
 /backend/coverage.json
 
+# Local deployments
+/backend/deployments/localhost/
+/backend/deployments/hardhat/
+
 # Testing
 /coverage/
 
@@ -31,6 +55,9 @@ node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+debug.log*
+logs/
+*.log
 
 # Editor directories and files
 .idea/
