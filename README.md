@@ -6,7 +6,7 @@ Margarimi is a minimal, user-friendly decentralized trading interface that simpl
 
 **Why overcomplicate the wheel?**
 
-Built for the ETHDenver Hackathon 2024, TradeZ demonstrates how trading doesn't need to be complicated. Our interface provides all the essential functionality without the overwhelming features found in many trading platforms.
+Built for the ETHDenver Hackathon 2024, Margarimi demonstrates how trading doesn't need to be complicated. Our interface provides all the essential functionality without the overwhelming features found in many trading platforms.
 
 ## Features
 
@@ -40,8 +40,8 @@ Before you begin, ensure you have met the following requirements:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/certifiedp/TradeZ.git
-cd TradeZ
+git clone https://github.com/certifiedp/Margarimi.git
+cd Margarimi
 ```
 
 ### Frontend Setup
@@ -108,7 +108,7 @@ npx hardhat run scripts/deploy.js --network sepolia
 ## 🔍 Project Structure
 
 ```
-TradeZ/
+Margarimi/
 ├── frontend/                 # Next.js frontend application
 │   ├── app/                  # Next.js app directory
 │   ├── components/           # React components
@@ -160,11 +160,11 @@ npx hardhat test
 
 ### Problem Statement
 
-Many DeFi trading interfaces are unnecessarily complex, with overwhelming UIs and complicated features that alienate new users. TradeZ addresses this by providing a minimalist trading experience focused on usability and transparency.
+Many DeFi trading interfaces are unnecessarily complex, with overwhelming UIs and complicated features that alienate new users. Margarimi addresses this by providing a minimalist trading experience focused on usability and transparency.
 
 ### Innovation
 
-TradeZ uses a hybrid rendering approach that optimizes for both performance and interactivity, leveraging Next.js 15's Server and Client Components. This creates a fast, responsive user experience while maintaining all the functionality expected from a trading interface.
+Margarimi uses a hybrid rendering approach that optimizes for both performance and interactivity, leveraging Next.js 15's Server and Client Components. This creates a fast, responsive user experience while maintaining all the functionality expected from a trading interface.
 
 ### Technical Implementation
 
